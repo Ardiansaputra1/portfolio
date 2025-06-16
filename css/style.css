@@ -348,127 +348,52 @@ header {
     background: var(--accent-color);
 }
 
-/* Skills Section with Progress Bars */
+/* Skills Section - Simple Version */
 .skills-container {
     margin-top: 2rem;
     background: white;
     padding: 1.5rem;
     border-radius: var(--border-radius);
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-    transition: transform var(--transition-speed) ease;
-}
-
-.skills-container:hover {
-    transform: translateY(-3px);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 .skills-category {
     margin-bottom: 1.5rem;
 }
 
-.skills-category:last-child {
-    margin-bottom: 0;
-}
-
 .skills-category h3 {
     color: var(--secondary-color);
     margin-bottom: 1rem;
     font-size: 1.2rem;
-    position: relative;
-    padding-bottom: 0.5rem;
-}
-
-.skills-category h3::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 50px;
-    height: 2px;
-    background: var(--primary-color);
 }
 
 .skill-item {
     margin-bottom: 1rem;
-    transition: all var(--transition-speed) ease;
 }
 
 .skill-item:last-child {
     margin-bottom: 0;
 }
 
-.skill-header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.3rem;
-}
-
 .skill-name {
+    display: block;
+    margin-bottom: 0.3rem;
     font-weight: 500;
-    color: var(--secondary-color);
-}
-
-.skill-percentage {
-    color: var(--accent-color);
-    font-weight: 600;
 }
 
 .skill-bar-container {
     width: 100%;
-    height: 8px;
-    background: rgba(52, 152, 219, 0.1);
-    border-radius: 4px;
+    height: 6px;
+    background: #f0f0f0;
+    border-radius: 3px;
     overflow: hidden;
 }
 
 .skill-bar {
     height: 100%;
-    border-radius: 4px;
-    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
-    position: relative;
-    transition: width 1s ease-in-out;
-}
-
-/* Animation for skill bars when they come into view */
-.skill-bar.animate {
-    animation: skillBarFill 1.5s ease-out forwards;
-}
-
-@keyframes skillBarFill {
-    from { width: 0; }
-    to { width: var(--skill-level); }
-}
-
-/* Tooltip for skill bars */
-.skill-bar::after {
-    content: attr(data-skill-level);
-    position: absolute;
-    right: 0;
-    top: -25px;
-    background: var(--secondary-color);
-    color: white;
-    padding: 0.2rem 0.5rem;
+    background: var(--primary-color);
     border-radius: 3px;
-    font-size: 0.7rem;
-    opacity: 0;
-    transition: opacity 0.3s ease;
 }
-
-.skill-bar:hover::after {
-    opacity: 1;
-}
-
-/* Responsive adjustments */
-@media (max-width: 600px) {
-    .skill-bar-container {
-        height: 6px;
-    }
-    
-    .skill-name, .skill-percentage {
-        font-size: 0.9rem;
-    }
-}
-
 /* Education Section */
 .education-list {
     display: flex;
