@@ -1,0 +1,16 @@
+[
+    {
+        "university": "Politeknik Negeri Semarang",
+		"logo": "images/polines-logo.png",
+        "major": "Electronic Engineering Technology",
+        "year": "2022 - 2026",
+        "description": "Iam a D4 in Electronic Engineering student with a GPA of 3.61/4.00, specializing in embedded systems and IoT."
+    },
+    {
+        "university": "SMK Negeri 7 Semarang",
+		"logo": "images/smk-logo.jfif",
+        "major": "network information systems and applications",
+        "year": "2017 - 2021",
+        "description": "A graduate of SMKN 7 Semarang in Computer Network and Application Development (SIJA), specializing in programming, network administration, and software development, with hands-on experience in networking projects and application development."
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "company": "Jateng Perto Energi",
+		"logo":"images/jpen-logo.png",
+        "position": "Staff",
+        "year": "2021 - 2022",
+        "description": "At JPEN, I serve as a distribution staff overseeing oxygen logistics across Central Java while concurrently managing the official oxygen supply web administration, ensuring both operational efficiency and digital information accuracy."
+    },
+	{
+        "company": "PT Telkom Akses",
+		"logo":"images/telkom-logo.png",
+        "position": "Internship",
+        "year": "2020",
+        "description": "During my internship at PT Telkom Akses, I managed warehouse operations including inventory control and equipment distribution, while also gaining field experience in outdoor WiFi installation and network troubleshooting."
+    }
+]
