@@ -233,46 +233,41 @@ header {
 
 /* Profile Name Styles */
 .profile-name {
-    font-size: 2.5rem; /* Slightly larger for prominence */
-    font-weight: 800; /* Bold for impact */
-    font-family: 'Poppins', sans-serif; /* Modern, stylish font */
-    background: linear-gradient(90deg, var(--primary-color), var(--accent-color)); /* Eye-catching gradient */
+    font-size: 2.4rem; /* Prominent but balanced */
+    font-weight: 700; /* Strong without being too heavy */
+    font-family: 'Montserrat', sans-serif; /* Sleek, modern font */
+    color: var(--secondary-color); /* Deep navy for sophistication */
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color)); /* Subtle gradient */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0 2px 8px rgba(0, 212, 255, 0.4), 0 0 20px rgba(255, 46, 99, 0.3); /* Glowing effect */
     display: inline-block;
     position: relative;
-    animation: glow 2s ease-in-out infinite alternate; /* Subtle glow animation */
     margin-bottom: 1rem;
-    letter-spacing: 1.5px; /* Spacing for elegance */
+    letter-spacing: 0.5px; /* Minimal spacing for elegance */
+    text-transform: uppercase; /* Professional and bold */
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
-@keyframes glow {
-    0% {
-        text-shadow: 0 2px 8px rgba(0, 212, 255, 0.4), 0 0 20px rgba(255, 46, 99, 0.3);
-    }
-    100% {
-        text-shadow: 0 2px 12px rgba(0, 212, 255, 0.6), 0 0 30px rgba(255, 46, 99, 0.5);
-    }
+.profile-name:hover {
+    transform: translateY(-2px); /* Subtle lift on hover */
+    text-shadow: 0 4px 12px rgba(0, 212, 255, 0.3); /* Soft glow */
 }
 
-/* Add a decorative underline effect */
-.profile-name::after {
+/* Subtle decorative effect */
+.profile-name::before {
     content: '';
     position: absolute;
-    bottom: -8px;
+    top: -8px;
     left: 0;
-    width: 100%;
-    height: 4px;
-    background: var(--gradient);
+    width: 40px;
+    height: 3px;
+    background: var(--primary-color);
     border-radius: 2px;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.5s ease;
+    transition: width 0.3s ease;
 }
 
-.profile-description:hover .profile-name::after {
-    transform: scaleX(1); /* Underline appears on hover */
+.profile-name:hover::before {
+    width: 60px; /* Expands slightly on hover */
 }
 
 .social-links {
@@ -679,7 +674,7 @@ footer {
     }
 
     .profile-name {
-        font-size: 2rem; /* Slightly smaller for mobile */
+        font-size: 2rem; /* Adjusted for balance */
     }
 }
 
