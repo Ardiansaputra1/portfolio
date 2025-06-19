@@ -17,6 +17,15 @@
         "image": "images/project2.jpg",
         "link": ""
     },
+    {
+        "title": "Drive Safe",
+        "year": "2024",
+        "partner": "Electronic Medic Team",
+        "role": "Member",
+        "description": "Drive Safe is a smart safety device that alerts drowsy drivers with an alarm when it detects 3 consecutive head nods (sleepiness) or abnormally low heart rate (falling asleep) using motion and pulse sensors.",
+        "image": "images/project4.jpg",
+        "link": ""
+    },
        {
         "title": "IoT Health Monitoring System for Sports: Real-Time Heart Rate and Temperature Tracking",
         "year": "2023",
@@ -26,4 +35,5 @@
         "image": "images/project3.jpg",
         "link": ""
     }
+
 ]
