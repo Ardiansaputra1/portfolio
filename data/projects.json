@@ -16,5 +16,14 @@
         "description": "A Line Follower Robot is an autonomous robot designed to follow a line (typically black on a light surface or vice versa) using light or infrared sensors.",
         "image": "images/project2.jpg",
         "link": ""
+    },
+       {
+        "title": "IoT Health Monitoring System for Sports: Real-Time Heart Rate and Temperature Tracking",
+        "year": "2023",
+        "partner": "Mikro Team",
+        "role": "Member",
+        "description": "This system uses wearable IoT devices to monitor athletes’ vital signs (heart rate and body temperature) in real time during training or competition. Data is transmitted wirelessly to a cloud platform",
+        "image": "images/project3.png",
+        "link": ""
     }
 ]
