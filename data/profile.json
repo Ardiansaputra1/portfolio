@@ -7,7 +7,7 @@
     "socialMedia": [
         {
             "platform": "Whatsapp",
-            "url": "wa.me/6285641039517"
+            "url": "https://api.whatsapp.com/send/?phone=6285641039517&text&type=phone_number&app_absent=0"
         },
         {
             "platform": "GitHub",
